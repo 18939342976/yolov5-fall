@@ -1,0 +1,13 @@
+#path：数据集的根目录
+#train：训练集与path的相对路径
+#val：验证集与path的相对路径
+#nc：类别数量，因为这个数据集只有一个类别（fire），nc即为1。
+#names：类别名字。
+path: datasets/untrain/fall detection # dataset root dir
+train: images/train # train images (relative to 'path') 128 images
+val: images/train # val images (relative to 'path') 128 images
+test: # test images (optional)
+
+# Classes
+names:
+  0: fall
